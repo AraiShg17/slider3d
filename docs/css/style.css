@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 
-  
+
   .js-slider3d-unit{
     position: relative;
     -webkit-perspective-origin: 50% 50%;
     perspective-origin: 50% 50%;
     -webkit-perspective: 500px;
     perspective: 500px;
-    
-    height: 400px;/* jsで取得するようにしたい */
+
+    height: 400px;
   }
   .js-slider3d-list{
     position: absolute;
@@ -22,9 +22,9 @@
     opacity: 0;
     transform-origin: center;
     transition: all .6s ease;
-    
-    width: 534px;/* jsで取得するようにしたい */
-    height: 270px;/* jsで取得するようにしたい */
+
+    width: 534px;
+    height: 270px;
   }
   .js-slider3d-list[data-slide3d]{
     opacity: 1;
@@ -51,3 +51,17 @@
     transform: translateX(60%) translateZ(-100px) scale(0.6) rotateY(-40deg);
     opacity: 0;
   }
+
+.js-slider3d-prev,
+.js-slider3d-next{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 2em;
+}
+.js-slider3d-prev{
+  left: 0;
+}
+.js-slider3d-next{
+  right: 0;
+}
