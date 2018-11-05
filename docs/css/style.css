@@ -58,6 +58,7 @@
   top: 0;
   bottom: 0;
   height: 2em;
+  z-index: 2;
 }
 .js-slider3d-prev{
   left: 0;

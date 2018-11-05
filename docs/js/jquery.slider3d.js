@@ -45,18 +45,18 @@ function slider3d(data) {
 
   //クラスセット
   var classSet = function(){
-    $(list).removeAttr('data-macslide');
+    $(list).removeAttr('data-slide3d');
     $(list+'.'+isCurrent)
-      .attr('data-macslide',0)
+      .attr('data-slide3d',0)
       .prev()
-      .attr('data-macslide',-1)
+      .attr('data-slide3d',-1)
       .prev()
-      .attr('data-macslide',-2);
+      .attr('data-slide3d',-2);
     $(list+'.'+isCurrent)
       .next()
-      .attr('data-macslide',1)
+      .attr('data-slide3d',1)
       .next()
-      .attr('data-macslide',2);
+      .attr('data-slide3d',2);
   };
   classSet();
 
