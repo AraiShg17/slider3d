@@ -1,11 +1,11 @@
 'use strict';
 
 function slider3d(data) {
-  var slide = ".js-macSlider-unit";
-  var list = ".js-macSlider-list";
+  var slide = ".js-slider3d-unit";
+  var list = ".js-slider3d-list";
   var isCurrent = "is-current";
-  var next = ".js-macSlider-next";
-  var prev = ".js-macSlider-prev";
+  var next = ".js-slider3d-next";
+  var prev = ".js-slider3d-prev";
   var dom = null;
   var i = 0;
 
